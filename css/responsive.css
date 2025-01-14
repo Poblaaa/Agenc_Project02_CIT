@@ -62,9 +62,9 @@
 	#service_part {
 		padding: 60px 0 60px;
 	}
-  #service_part .container .title {
-    margin-bottom: 37px;
-  }
+	#service_part .container .title {
+		margin-bottom: 37px;
+	}
 	.title h2 {
 		font-size: 30px;
 	}
@@ -88,39 +88,116 @@
 
 	/*====================== service  end ===========================*/
 
-  #work_part {
-    padding: 60px 0;
-  }
-  #work_part .title {
-    margin-bottom: 37px;
-  }
-  #work_part .container .row {
-    row-gap: 12px;
-  }
-  #work_part .container .row .child .text{
-    padding: 0 8px;
-  }
-  #work_part .container .row .child h3 {
-    font-size: 18px;
-    margin-bottom: 3px;
-    margin-top: 21px;
-  }
-  #work_part .container .row .child p {
-    font-size: 14px;
-    line-height: 20px;
-    margin: 0px auto 22px;
-  }
+	#work_part {
+		padding: 60px 0;
+	}
+	#work_part .title {
+		margin-bottom: 37px;
+	}
+	#work_part .container .row {
+		row-gap: 12px;
+	}
+	#work_part .container .row .child .text {
+		padding: 0 8px;
+	}
+	#work_part .container .row .child h3 {
+		font-size: 18px;
+		margin-bottom: 3px;
+		margin-top: 21px;
+	}
+	#work_part .container .row .child p {
+		font-size: 14px;
+		line-height: 20px;
+		margin: 0px auto 22px;
+	}
 
-/*====================== work_part  end ===========================*/
+	/*====================== work_part  end ===========================*/
 
-  #idea_part {
-    padding: 60px 0 0;
+	#idea_part {
+		padding: 60px 0 0;
+	}
+	#idea_part .title {
+		margin-bottom: 40px;
+	}
+	#idea_part .main .idea_row {
+		row-gap: 20px;
+		padding: 20px 6px;
+		background: url(../pic/Agence_work/idea_group.jpg);
+		position: relative;
+		z-index: 1;
+	}
+	#idea_part .main .idea_row:before {
+		content: "";
+		position: absolute;
+		top: 0px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(255, 255, 255, 0.7);
+		z-index: -1;
+	}
+	#idea_part .main .four_ideas .child {
+		display: flex;
+		align-items: center;
+		column-gap: 15px;
+	}
+	#idea_part .main .four_ideas .child .text {
+		background: rgba(255, 255, 255, 0.436);
+		padding: 5px 4px;
+		border-radius: 10px;
+	}
+	#idea_part .main .four_ideas .child .text h3 {
+		margin: 0px 0px 2px;
+		font-size: 19px;
+	}
+	#idea_part .main .four_ideas .child .text p {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	#idea_part .main .four_ideas:nth-child(3) .child,
+	#idea_part .main .four_ideas:nth-child(4) .child {
+		flex-direction: row-reverse;
+		text-align: right;
+	}
+	#idea_part .main .team {
+		display: none;
+	}
+
+	/*====================== idea_part  end ===========================*/
+
+	#review_part {
+		padding: 60px 0;
+	}
+  #review_part .title {
+    margin-bottom: 40px;
   }
+	#review_part .main .review_slides .slide {
+		padding: 24px 16px;
+		border-radius: 20px;
+	}
+	#review_part .main .review_slides .slide p {
+		margin: 5px 0;
+		font-size: 13px;
+		line-height: 18px;
+	}
+	#review_part .main .review_slides .slide .icon i {
+		margin-bottom: 7px;
+	}
+	#review_part .main .review_slides .slide .user .text h4 {
+		font-size: 14px;
+		line-height: 100%;
+	}
+	#review_part .main .review_slides .slide .user .text p {
+		font-size: 11px;
+		margin-top: 3px;
+		line-height: 14px;
+	}
 
+/*====================== review_part  end ===========================*/
 
-
-
-
+  #quote_part {
+    padding: 65px 112px 131px 0px;
+  }
 
 
 

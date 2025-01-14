@@ -1,0 +1,137 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+	.banner_part {
+		padding: 200px 0 75px;
+	}
+	.banner_part .container h1 {
+		font-size: 32px;
+		line-height: 112%;
+		margin-bottom: 12px;
+	}
+	.banner_part .container p {
+		font-size: 11px;
+		line-height: 19px;
+		margin-bottom: 26px;
+	}
+	.abtn button {
+		padding: 16px 29px;
+		border-radius: 8px;
+		font-size: 14px;
+		line-height: 12px;
+	}
+	.banner_slider .slick-dots li button {
+		height: 12px;
+		width: 12px;
+		font-size: 0;
+	}
+	.banner_slider .slick-dots {
+		bottom: 34px;
+	}
+
+	/*====================== banner  end ===========================*/
+	#success_part {
+		margin-top: 60px;
+		padding: 0 10px;
+	}
+	#success_part .row {
+		padding: 60px 34px 60px;
+		border-radius: 10px;
+	}
+	#success_part .row .left h4 {
+		font-size: 18px;
+		margin-bottom: 9px;
+		text-align: center;
+	}
+	#success_part .row .left h3 {
+		font-size: 25px;
+		text-align: center;
+	}
+	#success_part .row .right {
+		flex-direction: column;
+	}
+	#success_part .row .right .child h3 {
+		font-size: 30px;
+		margin-bottom: 5px;
+	}
+	#success_part .row .right .child p {
+		font-size: 16px;
+		margin-bottom: 11px;
+	}
+
+	/*====================== success  end ===========================*/
+
+	#service_part {
+		padding: 60px 0 60px;
+	}
+  #service_part .container .title {
+    margin-bottom: 37px;
+  }
+	.title h2 {
+		font-size: 30px;
+	}
+	.title p {
+		font-size: 14px;
+		line-height: 22px;
+		margin: 10px auto 0;
+	}
+	#service_part .container .row .child {
+		padding: 40px 20px 19px;
+		box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+	}
+	#service_part .container .row .child h3 {
+		font-size: 24px;
+		margin: 21.5px 0 10px;
+	}
+	#service_part .container .row .child p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	/*====================== service  end ===========================*/
+
+  #work_part {
+    padding: 60px 0;
+  }
+  #work_part .title {
+    margin-bottom: 37px;
+  }
+  #work_part .container .row {
+    row-gap: 12px;
+  }
+  #work_part .container .row .child .text{
+    padding: 0 8px;
+  }
+  #work_part .container .row .child h3 {
+    font-size: 18px;
+    margin-bottom: 3px;
+    margin-top: 21px;
+  }
+  #work_part .container .row .child p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px auto 22px;
+  }
+
+/*====================== work_part  end ===========================*/
+
+  #idea_part {
+    padding: 60px 0 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

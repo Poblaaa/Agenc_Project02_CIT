@@ -12,6 +12,7 @@ $('.review_slides').slick({
   prevArrow: `<i class="fa-solid fa-angle-left lft_Arrow"></i>`,
   nextArrow: `<i class="fa-solid fa-angle-right rft_Arrow"></i>`,
   centerMode: true,
+  centerPadding: '0px',
 
 
   responsive: [
@@ -19,9 +20,9 @@ $('.review_slides').slick({
       breakpoint: 575.98,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
       }
-    }
+    },
   ]
 
   

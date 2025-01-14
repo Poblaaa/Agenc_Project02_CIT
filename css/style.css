@@ -377,36 +377,36 @@ a {
 #review_part .title {
 	margin-bottom: 100px;
 }
-#review_part .main .review_slides .slide {
+#review_part .main .review_slides .slideeee {
 	padding: 54px 58px;
 	margin: 0 12px;
 	border-radius: 30px;
 	transition: 0.4s all linear;
 }
-#review_part .main .review_slides .slide p {
+#review_part .main .review_slides .slideeee p {
 	margin: 20px 0;
 	max-width: 307px;
 	font-size: 16px;
 	line-height: 26px;
 	color: var(--subheadingcolor);
 }
-#review_part .main .review_slides .slide .icon i {
+#review_part .main .review_slides .slideeee .icon i {
 	color: #f9bd2c;
 	margin-bottom: 30px;
 }
-#review_part .main .review_slides .slide .user img {
+#review_part .main .review_slides .slideeee .user img {
 	width: 47px;
 	height: 47px;
 	object-fit: cover;
 	margin-right: 20px;
 }
-#review_part .main .review_slides .slide .user .text h4 {
+#review_part .main .review_slides .slideeee .user .text h4 {
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 120%;
 	color: var(--headingcolor);
 }
-#review_part .main .review_slides .slide .user .text p {
+#review_part .main .review_slides .slideeee .user .text p {
 	font-size: 16px;
 	margin-top: 0px;
 	color: var(--subheadingcolor);

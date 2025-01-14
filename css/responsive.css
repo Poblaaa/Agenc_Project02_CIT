@@ -171,23 +171,23 @@
   #review_part .title {
     margin-bottom: 40px;
   }
-	#review_part .main .review_slides .slide {
+	#review_part .main .review_slides .slideeee {
 		padding: 24px 16px;
 		border-radius: 20px;
 	}
-	#review_part .main .review_slides .slide p {
+	#review_part .main .review_slides .slideeee p {
 		margin: 5px 0;
 		font-size: 13px;
 		line-height: 18px;
 	}
-	#review_part .main .review_slides .slide .icon i {
+	#review_part .main .review_slides .slideeee .icon i {
 		margin-bottom: 7px;
 	}
-	#review_part .main .review_slides .slide .user .text h4 {
+	#review_part .main .review_slides .slideeee .user .text h4 {
 		font-size: 14px;
 		line-height: 100%;
 	}
-	#review_part .main .review_slides .slide .user .text p {
+	#review_part .main .review_slides .slideeee .user .text p {
 		font-size: 11px;
 		margin-top: 3px;
 		line-height: 14px;

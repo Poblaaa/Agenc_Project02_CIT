@@ -46,6 +46,9 @@
 		-webkit-box-shadow: 4px 7px 16px 8px rgba(255,255,255,1);
 -moz-box-shadow: 4px 7px 16px 8px rgba(255,255,255,1);
 box-shadow: 4px 7px 16px 8px rgba(255,255,255,1);
+padding: 4px 0;
+border-radius: 10px;
+
 	}
 
 	.navbar .abtn {

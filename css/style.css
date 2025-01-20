@@ -513,8 +513,9 @@ footer .footer_left p {
 	font-size: 16px;
 	line-height: 26px;
 	color: var(--subheadingcolor);
+	max-width: 256px;
 }
-footer .footer_right {
+/* footer .footer_right {
 	display: flex;
 	justify-content: end;
 	flex-direction: row;
@@ -535,7 +536,7 @@ footer .footer_right .part ul li a {
 	font-size: 16px;
 	line-height: 40px;
 	color: #7b7b7b;
-}
+} */
 footer .copy .container {
 	border-top: 1px solid #e8e8e8;
 	text-align: center;
@@ -546,6 +547,24 @@ footer .copy .container p a {
 	font-size: 16px;
 	line-height: 26px;
 	color: #d0d0d0;
+}
+
+
+footer .container .part h3{
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--headingcolor);
+	margin-bottom: 40px;
+}
+footer .container .part ul{
+	flex-direction: column;
+	row-gap: 10px;
+	margin-bottom: 50px;
+}
+footer .container .part li a{
+	font-size: 16px;
+	line-height: 40px;
+	color: #7b7b7b;
 }
 
 /* ================project end============== */

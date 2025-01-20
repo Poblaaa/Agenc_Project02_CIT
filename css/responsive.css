@@ -174,6 +174,7 @@
 	#review_part .main .review_slides .slideeee {
 		padding: 24px 16px;
 		border-radius: 20px;
+		margin: 0;
 	}
 	#review_part .main .review_slides .slideeee p {
 		margin: 5px 0;
@@ -192,20 +193,56 @@
 		margin-top: 3px;
 		line-height: 14px;
 	}
-
-/*====================== review_part  end ===========================*/
+	#review_part .main .review_slides .rft_Arrow {
+		height: 27px;
+		width: 74px;
+		background: #4756df;
+		border-radius: 5%;
+		text-align: center;
+		line-height: 27px;
+		color: var(--white);
+		position: absolute;
+		top: 107%;
+		right: 12px;
+		transform: translateY(0%) translateX(2%);
+		z-index: 999;
+	}
+	#review_part .main .review_slides .lft_Arrow {
+		height: 27px;
+		width: 74px;
+		background: #4756df;
+		border-radius: 5%;
+		text-align: center;
+		line-height: 27px;
+		color: var(--white);
+		position: absolute;
+		top: 107.5%;
+		left: 12px;
+		transform: translate(0%, -5%);
+		z-index: 999;
+	}
+	
+	/*====================== review_part  end ===========================*/
 
   #quote_part {
-    padding: 65px 112px 131px 0px;
+    padding: 55px 0px;
   }
-
-
-
-
-
-
-
-
+	#quote_part .row .title .p1 {
+		max-width: 514px;
+		margin: 10px auto 0px 0 !important;
+	}
+	#quote_part .row .title {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	#quote_part .row .form_sec form {
+		border-radius: 10px;
+		padding: 35px 13px 35px;
+	}
+	#quote_part .row .form_sec h3 {
+		font-size: 25px;
+		margin-bottom: 23px;
+	}
 
 
 

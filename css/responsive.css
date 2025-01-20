@@ -1,4 +1,6 @@
 @media (min-width: 320px) and (max-width: 575.98px) {
+	/*====================== reponsive_for_Extra_small  Start ===========================*/
+
 	.banner_part {
 		padding: 200px 0 75px;
 	}
@@ -168,9 +170,9 @@
 	#review_part {
 		padding: 60px 0;
 	}
-  #review_part .title {
-    margin-bottom: 40px;
-  }
+	#review_part .title {
+		margin-bottom: 40px;
+	}
 	#review_part .main .review_slides .slideeee {
 		padding: 24px 16px;
 		border-radius: 20px;
@@ -221,12 +223,12 @@
 		transform: translate(0%, -5%);
 		z-index: 999;
 	}
-	
+
 	/*====================== review_part  end ===========================*/
 
-  #quote_part {
-    padding: 55px 0px;
-  }
+	#quote_part {
+		padding: 55px 0px;
+	}
 	#quote_part .row .title .p1 {
 		max-width: 514px;
 		margin: 10px auto 0px 0 !important;
@@ -244,8 +246,42 @@
 		margin-bottom: 23px;
 	}
 
+	/*====================== quote_part  end ===========================*/
 
-
-
-
+	footer {
+		padding-top: 55px;
+	}
+	footer .footer_left {
+		max-width: 356px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	footer .footer_left p {
+		margin: 19px auto;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	footer .container .part {
+		text-align: center;
+	}
+	footer .container .part h3 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	footer .container .part ul {
+		margin-bottom: 28px;
+	}
+	footer .container .part li a {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	footer .copy .container {
+		padding: 3px 0;
+	}
+	footer .copy .container p a {
+		font-size: 10px;
+		line-height: 0px;
+		color: #d0d0d0;
+	}
+	/*====================== reponsive_for_Extra_small  end ===========================*/
 }

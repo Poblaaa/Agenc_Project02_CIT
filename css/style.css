@@ -427,6 +427,7 @@ a {
 	left: 12px;
 	transform: translate(-50%, -50%);
 	z-index: 999;
+	cursor: pointer;
 }
 #review_part .main .review_slides .rft_Arrow {
 	height: 40px;
@@ -441,6 +442,7 @@ a {
 	right: 12px;
 	transform: translateY(-50%) translateX(50%);
 	z-index: 999;
+	cursor: pointer;
 }
 .slick-center {
 	background: #f4efef;
@@ -505,17 +507,31 @@ a {
 footer {
 	padding-top: 146px;
 }
-footer .footer_left {
-	max-width: 356px;
+footer .container .main{
+	padding-bottom: 50px;
 }
-footer .footer_left p {
+footer .container .main .row .text p{
 	margin-top: 30px;
 	font-size: 16px;
 	line-height: 26px;
 	color: var(--subheadingcolor);
-	max-width: 256px;
+	max-width: 356px;
 }
-
+footer .container .main .row .foooter_details h3{
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--headingcolor);
+	margin-bottom: 40px;
+}
+footer .container .main .row .foooter_details ul li a{
+	font-size: 16px;
+	line-height: 40px;
+	color: #7b7b7b;
+}
+footer .container .main .row .foooter_details ul{
+	flex-direction: column;
+	row-gap: 10px;
+}
 footer .copy .container {
 	border-top: 1px solid #e8e8e8;
 	text-align: center;
@@ -528,22 +544,5 @@ footer .copy .container p a {
 	color: #d0d0d0;
 }
 
-
-footer .container .part h3{
-	font-size: 20px;
-	font-weight: 600;
-	color: var(--headingcolor);
-	margin-bottom: 40px;
-}
-footer .container .part ul{
-	flex-direction: column;
-	row-gap: 10px;
-	margin-bottom: 50px;
-}
-footer .container .part li a{
-	font-size: 16px;
-	line-height: 40px;
-	color: #7b7b7b;
-}
 
 /* ================main css end============== */
